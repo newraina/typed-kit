@@ -1,0 +1,19 @@
+{
+  "name": "typed-kit",
+  "version": "0.0.1",
+  "repository": "git@github.com:newraina/typed-kit.git",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "clean": "rm -rf lib/*",
+    "build": "npm run clean && tsc"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.2",
+    "typescript": "^3.1.6"
+  }
+}
