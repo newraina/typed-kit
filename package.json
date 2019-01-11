@@ -18,6 +18,7 @@
     "typescript": "^3.1.6"
   },
   "dependencies": {
+    "mobx": "^5.8.0",
     "mobx-state-tree": "3"
   }
 }
