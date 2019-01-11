@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+mobx-state-tree@^3.10.0:
+  version "3.10.0"
+  resolved "http://registry.npm.taobao.org/mobx-state-tree/download/mobx-state-tree-3.10.0.tgz#92b893e2c85339e246779d19928b6d69b798a813"
+  integrity sha1-kriT4shTOeJGd50ZkottabeYqBM=
+
 prettier@^1.15.2:
   version "1.15.2"
   resolved "http://registry.npm.taobao.org/prettier/download/prettier-1.15.2.tgz#d31abe22afa4351efa14c7f8b94b58bb7452205e"
