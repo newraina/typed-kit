@@ -10,7 +10,8 @@
   "typings": "lib/index.d.ts",
   "scripts": {
     "clean": "rm -rf lib/*",
-    "build": "npm run clean && tsc"
+    "build": "npm run clean && tsc",
+    "prepublishOnly": "yarn build"
   },
   "devDependencies": {
     "prettier": "^1.15.2",
