@@ -1,7 +1,9 @@
-import { IMSTArray } from 'mobx-state-tree'
+import { IMSTArray, IAnyType, IType } from 'mobx-state-tree'
+
+type ExtractT<T extends IAnyType> = T extends IType<any, any, infer X> ? X : any
 
 export type ListItemType<T extends any[]> = T extends IMSTArray<infer R>
-  ? R
+  ? ExtractT<R>
   : T extends Array<infer R>
   ? R
   : any
